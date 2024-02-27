@@ -1,0 +1,44 @@
+<!-- mpesa/templates/mpesa/balance.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live M-Pesa Balance</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f7f7f7;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            color: #ff6600;
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #333;
+            font-size: 10em;
+            margin-top: 30px;
+        }
+
+        #balance-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live Total Contribution</h1>
+    <p>Balance: ${{ balance_amount }}</p>
+    
+    <!-- Optional: Add an image for a warmer feel -->
+    <!-- <img id="balance-image" src="your-image-url.jpg" alt="Warm Image"> -->
+</body>
+</html>
+
